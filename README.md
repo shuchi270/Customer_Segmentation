@@ -60,15 +60,6 @@ Step 4. Export the environment variable
 
 ```bash
 
-export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
-
-
-export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
-
-
-export AWS_DEFAULT_REGION=<AWS_DEFAULT_REGION>
-
-
 export MONGODB_URL= <MONGODB_URL>
 
 
@@ -125,7 +116,6 @@ From these above models after hyperparameter optimization we selected these two 
 - Data Clustering
 - Model Trainer
 - Model Evaluation
-- Model Pusher
 
 **Custom Logger and Exceptions** are used in the Project for better debugging purposes.
 
